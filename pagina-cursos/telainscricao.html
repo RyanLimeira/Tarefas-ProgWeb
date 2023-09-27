@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição no Curso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Inscrição no Curso</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Voltar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inscricao-form">
+            <h2>Preencha o Formulário de Inscrição</h2>
+            <form action="https://651423588e505cebc2eacd45.mockapi.io/api/v1/inscritos" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="curso">Selecione o Curso:</label>
+                <select id="curso" name="curso" required>
+                    <option value="Curso de Desenvolvimento Web">Curso de Desenvolvimento Web</option>
+                    <option value="Curso de Data Science">Curso de Data Science</option>
+                    <option value="Curso de Segurança Cibernética">Curso de Segurança Cibernética</option>
+                </select>
+                
+                <input type="submit" value="Inscrever-se">
+            </form>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2023 Escola de Tecnologia</p>
+    </footer>
+</body>
+</html>
