@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 0 0 30px 30px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.card:hover {
+    background-color: #888;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-spacing {
+    margin-bottom: 20px; 
+}
