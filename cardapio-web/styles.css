@@ -1,0 +1,50 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+}
+
+header {
+    background-color: red;
+    color: lightyellow;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 0px 0px 70px 70px;
+}
+
+.pratos-principais, .acompanhamentos, .bebidas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.item {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    background-color: lightyellow;
+}
+
+
+footer {
+    text-align: center;
+}
